@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(180deg, black, rgb(0, 0, 85));
+}
+
+#container{
+    display: flex;
+}
+
+.coluna{
+    padding: 10px 10px;
+}
+
+.card{
+    height: 300px;
+    width: 220px;
+    border-radius: 12px;
+    padding: 0;
+    transition: all 0.9s;
+}
+
+.card:hover img{
+    height: 320px;
+    width: 230px;
+}
+   
+.card:hover {
+    height: 320px;
+    width: 230px;
+    box-shadow: 0 0 25px white ;
+}
+
+
+
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 37px;
+    letter-spacing:2px; /* define o espaçamento entre os caracteres de texto. */
+}
+
+img{
+    height: 300px;
+    width: 220px;
+    margin-right: 1rem;
+    border-radius: 15px;
+    transition: all 0.9s;
+}
+
+img:hover{
+    height: 320px;
+    width: 230px;
+    box-shadow: 0 0 25px white ;
+}
