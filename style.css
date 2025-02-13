@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: linear-gradient(180deg, black, rgb(0, 0, 85));
 }
@@ -11,20 +17,24 @@ header{
 
 .tudo{
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #container{
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 .card{
     height: 300px;
     width: 220px;
     border-radius: 12px;
-    padding: 0;
     transition: all 0.3s;
 }
 .card:hover{
